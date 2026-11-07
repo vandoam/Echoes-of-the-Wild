@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    overscroll-behavior: none;
+  }
+
+  h1, h2, h3, .font-serif-title {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Prevent unwanted browser gestures during gameplay */
+* {
+  touch-action: manipulation;
+}
+
+canvas {
+  touch-action: none;
+}

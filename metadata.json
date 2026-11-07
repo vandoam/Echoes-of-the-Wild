@@ -1,0 +1,6 @@
+{
+  "name": "Echoes of the Wild - 3D Open World Survival",
+  "description": "Jogo 3D completo de sobrevivência em mundo aberto para Android. Terceira pessoa, exploração de 8 regiões, fauna com IA, coleta, fabricação, construção, ciclo dia/noite e mistérios antigos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
